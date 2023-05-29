@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adibmbrk.github.io/static/css/main.a261aa67.css",
+    "main.js": "/adibmbrk.github.io/static/js/main.e9d55c80.js",
+    "index.html": "/adibmbrk.github.io/index.html",
+    "main.a261aa67.css.map": "/adibmbrk.github.io/static/css/main.a261aa67.css.map",
+    "main.e9d55c80.js.map": "/adibmbrk.github.io/static/js/main.e9d55c80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a261aa67.css",
+    "static/js/main.e9d55c80.js"
+  ]
+}
