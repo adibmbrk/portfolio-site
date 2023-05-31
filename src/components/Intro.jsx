@@ -28,7 +28,7 @@ const Intro = () => {
             </div>
             <div class="">
                 <a href='mailto:adibmbrk@gmail.com'>
-                    <Button class="intro-button" color="primary" size="small" variant="elevated">Say Hi 👋</Button>
+                    <Button class="intro-button" color="primary" size="small" variant="elevated"><b>Say Hi 👋</b></Button>
                 </a>
             </div>     
         </>
