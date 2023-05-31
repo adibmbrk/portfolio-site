@@ -1,15 +1,15 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import "../styles/Intro.css";
-import EmailIcon from '@mui/icons-material/Email';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+import Button from '@mui/material/Button';
+
 
 
 const Intro = () => {
     return (
         <>
-            <span class="intro-title">
+            <div class="intro-title">
                 <Typewriter
                     onInit={(typewriter)=> {
                     typewriter
@@ -19,22 +19,19 @@ const Intro = () => {
                     .start();
                     }}
                 />
-            </span>
-            <div class="intro-links">
-                <a href='mailto:adibmbrk@gmail.com'>
-                    <EmailIcon className='intro-icon'></EmailIcon>
-                </a>
-                <a href='https://github.com/adibmbrk'>
-                    <GitHubIcon className='intro-icon'></GitHubIcon>
-                </a>
-                <a href='https://www.linkedin.com/adibmbrk/'>
-                    <LinkedInIcon className='intro-icon'></LinkedInIcon>
-                </a>
             </div>
+            <div class="intro-subtitle">
+                <p>i build software that makes people say, 'Whoa, how'd he do that?</p>
+            </div>
+            <div class="intro-para">
+                <p>I'm a self-taught developer based in Colombo, Sri Lanka. My interests lie in the area of full stack development,<br/> data science and artificial intelligence.</p>
+            </div>
+            <div class="">
+                <a href='mailto:adibmbrk@gmail.com'>
+                    <Button class="intro-button" color="primary" size="small" variant="elevated">Say Hi 👋</Button>
+                </a>
+            </div>     
         </>
-        
-        
-        
     );
 }
 
